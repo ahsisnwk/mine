@@ -1,0 +1,8 @@
+#>---------------应用解锁----------------<#
+#>1.句读
+#hostname=judouapp.com
+#^https?:\/\/judouapp\.com\/api\/v2\/(users|mine)\/.* url script-response-body ju.js
+
+#>2.七猫小说
+hostname=xiaoshuo.wtzw.com
+^https?:\/\/xiaoshuo\.wtzw\.com\/api\/v3\/user\/.* url response-body "is_vip":"0" response-body "is_vip":"1"

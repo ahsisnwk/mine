@@ -1,0 +1,22 @@
+#广告拦截
+host, amdc.m.taobao.com, reject
+host-keyword, x11.1v22q.top, reject
+
+#规则修正(直连)
+host, wallpapers.claritywallpaper.com, direct
+host, xn--ehq00hgtfdmt.xyz, direct
+host-suffix, 10086.cn, direct
+host-keyword, juejin, direct
+host-keyword, zxcs.me, direct
+host-keyword, apple, direct
+host-keyword, itunes, direct
+host-keyword, sanfen, direct
+
+#规则修正(代理)
+host, buliangvip.com, agent
+host, theporndude.com, agent
+host-keyword, youtube, agent
+host-keyword, google, 香港节点
+
+
+geoip, cn, direct
